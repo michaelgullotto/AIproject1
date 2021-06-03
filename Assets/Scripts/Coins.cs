@@ -8,6 +8,7 @@ public class Coins : MonoBehaviour
     public GameObject agent2;
     public GameObject agent3;
     public GameObject door;
+    [SerializeField] private Rigidbody rigidbody;
     public static int coinCount = 1;
 
     // Update is called once per frame
@@ -18,16 +19,17 @@ public class Coins : MonoBehaviour
             Destroy(door.gameObject);
         }
 
-
+        rigidbody.WakeUp();
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject == agent1 | agent2 | agent3)
+        if (collision.gameObject == agent1 || collision.gameObject == agent2 || collision.gameObject == agent3)
         {
 
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
             coinCount = coinCount + 1;
+            Debug.Log("Coins");
         }
 
     }
