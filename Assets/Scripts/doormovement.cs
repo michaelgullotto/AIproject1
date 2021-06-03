@@ -7,7 +7,7 @@ public class doormovement : MonoBehaviour
     Vector3 open;
     Vector3 closed;
     public GameObject door;
-    [SerializeField] private float reRollTime = .5f;
+    [SerializeField] private float reRollTime = 2f;
 
     private void Start()
     {

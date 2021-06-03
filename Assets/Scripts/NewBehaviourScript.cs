@@ -1,36 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class NewBehaviourScript : MonoBehaviour
 {
     public Transform[] waypoint;
     public int currentWaypoint = 0;
-    public float speed = 10f;
-    public bool isRandomWaypoint = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-
-    }
-
-    // Update is called once per frame
+    public int roll = 0;
+    public NavMeshAgent agent;
+    public GameObject AgentLocation;
+    public float distance;
+    
     void Update()
     {
-        float step = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, waypoint[currentWaypoint].position, step);
+        agent.SetDestination(waypoint[currentWaypoint].position);
 
-        if (Vector3.Distance(transform.position, waypoint[currentWaypoint].position) < 0.1f)
+         distance = (AgentLocation.transform.position - waypoint[currentWaypoint].position).magnitude;
+
+        if (distance < 10f)
         {
-            currentWaypoint++;
+            roll = Random.Range(0, 3);
+            currentWaypoint = roll;
         }
-        if (currentWaypoint >= waypoint.Length)
-        {
-            currentWaypoint = 0;
-        }
-
-
-
     }
 }
