@@ -20,7 +20,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         if (distance < 10f)
         {
-            roll = Random.Range(0, 3);
+            roll = Random.Range(0, 4);
             currentWaypoint = roll;
         }
     }
