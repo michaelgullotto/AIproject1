@@ -11,19 +11,19 @@ D:\games\unity\2020.2.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/github/AIproject1
+D:/github/AIProject1.0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56403
-Successfully changed project path to: D:/github/AIproject1
-D:/github/AIproject1
+57535
+Successfully changed project path to: D:/github/AIProject1.0
+D:/github/AIProject1.0
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 18.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path D:/games/unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/github/AIproject1/Assets
+[Subsystems] Discovering subsystems at path D:/github/AIProject1.0/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,136 +35,76 @@ Initialize mono
 Mono path[0] = 'D:/games/unity/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'D:/games/unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/games/unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/games/unity/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000750 seconds.
+Registered in 0.000705 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 18.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.596 seconds
+- Completed reload, in  0.660 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000348 seconds.
+Registered in 0.000411 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.576 seconds
+- Completed reload, in  0.642 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.0 MB.
-System memory in use after: 72.1 MB.
+System memory in use before: 71.7 MB.
+System memory in use after: 71.8 MB.
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1603.
-Total: 1.497900 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.263200 ms  DeleteObjects: 0.017300 ms)
+Total: 1.336000 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.091700 ms  DeleteObjects: 0.018400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181b0873290938d3100e768dc97d9037') in 0.006802 seconds
-  Import took 0.008523 seconds .
+  path: Assets/Scripts
+  artifactKey: Guid(7c60a37b22653b14294d48e31f7aca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(7c60a37b22653b14294d48e31f7aca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0631009e69d28633c9e235d764e37b0') in 0.007364 seconds
+  Import took 0.009445 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.829588 seconds.
-  path: Packages/com.unity.ide.rider/package.json
-  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ca40f4615ab8d7a307f38dca958894') in 0.081072 seconds
-  Import took 0.082704 seconds .
+  Time since last request: 0.000154 seconds.
+  path: Assets/Scripts/coin.prefab
+  artifactKey: Guid(1106162716bbd384f8409961da42ba11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/coin.prefab using Guid(1106162716bbd384f8409961da42ba11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4dca1b1d77eca414d52866515871fb') in 0.085001 seconds
+  Import took 0.087116 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.311856 seconds.
-  path: Packages/com.unity.ide.rider/Rider
-  artifactKey: Guid(9129183a42052cd43b9c284d6dbd541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider/Rider using Guid(9129183a42052cd43b9c284d6dbd541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20332ca8e2d00a3e927ca5ed06b50eb7') in 0.005658 seconds
-  Import took 0.007352 seconds .
+  Time since last request: 1.974938 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(06901c0b7803ea049b5459a46d38bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(06901c0b7803ea049b5459a46d38bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f177d884ff78f23f864f23b5cf8d8260') in 0.007317 seconds
+  Import took 0.009235 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.888181 seconds.
-  path: Packages/com.unity.ide.rider/Rider/Editor
-  artifactKey: Guid(1b393f6b29a9ee84c803af1ab4944b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider/Rider/Editor using Guid(1b393f6b29a9ee84c803af1ab4944b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d94d668c6d4c05559e9ca97ff9944f') in 0.005388 seconds
-  Import took 0.007015 seconds .
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.1 MB.
+System memory in use after: 52.2 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.099955 seconds.
-  path: Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef
-  artifactKey: Guid(d528c8c98d269ca44a06cd9624a03945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef using Guid(d528c8c98d269ca44a06cd9624a03945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7f165ddee7179da2c0f529120fa473') in 0.006016 seconds
-  Import took 0.007503 seconds .
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 1.788200 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.594600 ms  DeleteObjects: 0.011300 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 14.176427 seconds.
-  path: Packages/com.unity.ugui/package.json
-  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc64036ad5d57fb88727d9272b78daf') in 0.027213 seconds
-  Import took 0.028689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.136332 seconds.
-  path: Packages/com.unity.test-framework/package.json
-  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274004c5d66dbce716cc495ed8d10447') in 0.028742 seconds
-  Import took 0.030394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.423562 seconds.
-  path: Packages/com.unity.ext.nunit/package.json
-  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01048ffe93b3c22a4a91bbd8dd61637') in 0.006054 seconds
-  Import took 0.007807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5635.475148 seconds.
-  path: Assets/Scenes/SampleScene
-  artifactKey: Guid(d06e5aa748bf7e546b870e3f1798cfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene using Guid(d06e5aa748bf7e546b870e3f1798cfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28208963e85fddf197865edde66a507') in 0.005825 seconds
-  Import took 0.007522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064978 seconds.
-  path: Assets/Scenes/SampleScene/NavMesh-Navmesh 1.asset
-  artifactKey: Guid(a5c9b7492597b94498c25e6c10c858a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/NavMesh-Navmesh 1.asset using Guid(a5c9b7492597b94498c25e6c10c858a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8753c654c92fb739a48cd690121bc0') in 0.005527 seconds
-  Import took 0.007084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Scenes/SampleScene/NavMesh-Navmesh.asset
-  artifactKey: Guid(e7c58e1b2e00eac41b7be277c372e403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/NavMesh-Navmesh.asset using Guid(e7c58e1b2e00eac41b7be277c372e403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e8739bbbbae18a6dba308657ceefb4') in 0.004829 seconds
-  Import took 0.006300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Scenes/SampleScene/NavMesh-Navmesh 2.asset
-  artifactKey: Guid(ec65504ae6b98d7468cc11b3a1e5973b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/NavMesh-Navmesh 2.asset using Guid(ec65504ae6b98d7468cc11b3a1e5973b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7307e5aa87b698d968c11a4233258991') in 0.004995 seconds
-  Import took 0.015198 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
